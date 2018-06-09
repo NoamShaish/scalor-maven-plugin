@@ -49,9 +49,9 @@
 		<version.sbe>1.8.1</version.sbe>
 		<version.agrona>0.9.18</version.agrona>
 		<version.protobuf>3.5.1</version.protobuf>
-		<version.snappy>1.1.7.1</version.snappy>
-		<version.lucene>7.3.0</version.lucene>
-		<version.amazon.sdk>1.11.324</version.amazon.sdk>
+		<version.snappy>1.1.7.2</version.snappy>
+		<version.lucene>7.3.1</version.lucene>
+		<version.amazon.sdk>1.11.337</version.amazon.sdk>
 		<version.sigar>1.6.5.132</version.sigar>
 		<version.aspectj>1.9.1</version.aspectj>
 		<version.bouncy>1.59</version.bouncy>
@@ -62,10 +62,10 @@
 		<version.scala.sbt>0.13.7</version.scala.sbt>
 		<version.scala.xml>1.1.0</version.scala.xml>
 		<version.scala.protobuf>0.6.7</version.scala.protobuf>
-		<version.akka.main>2.5.12</version.akka.main>
+		<version.akka.main>2.5.13</version.akka.main>
 		<version.akka.http>10.1.1</version.akka.http>
 		<version.eventuate>0.8.1</version.eventuate>
-		<version.play>2.6.13</version.play>
+		<version.play>2.6.15</version.play>
 		<version.scala.buff>1.4.0</version.scala.buff>
 		<version.scala.mock>3.6.0</version.scala.mock>
 		<version.specs2>4.1.0</version.specs2>
@@ -80,13 +80,13 @@
 
 		<!-- Scala.js stack. -->
 		<version.scalajs.epoch>0.6</version.scalajs.epoch>
-		<version.scalajs.release>0.6.22</version.scalajs.release>
+		<version.scalajs.release>0.6.23</version.scalajs.release>
 		<version.scalajs.library>sjs${version.scalajs.epoch}_${version.scala.epoch}</version.scalajs.library>
 		<version.scalajs.scalacss>0.5.5</version.scalajs.scalacss>
 		<version.scalajs.scalatags>0.6.7</version.scalajs.scalatags>
 		<version.scalajs.autowire>0.2.6</version.scalajs.autowire>
 		<version.scalajs.prickle>1.1.14</version.scalajs.prickle>
-		<version.scalajs.upickle>0.6.5</version.scalajs.upickle>
+		<version.scalajs.upickle>0.6.6</version.scalajs.upickle>
 		<version.scalajs.scalarx>0.4.0</version.scalajs.scalarx>
 		<version.scalajs.utest>0.6.4</version.scalajs.utest>
 		<version.scala.plugin.javascript>${version.scalajs.release}</version.scala.plugin.javascript>
@@ -201,12 +201,12 @@
 			<dependency>
 				<groupId>com.github.pathikrit</groupId>
 				<artifactId>better-files_${version.scala.epoch}</artifactId>
-				<version>3.4.0</version>
+				<version>3.5.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.pathikrit</groupId>
 				<artifactId>better-files-akka_${version.scala.epoch}</artifactId>
-				<version>3.4.0</version>
+				<version>3.5.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.beachape.filemanagement</groupId>
@@ -344,7 +344,7 @@
 			<dependency>
 				<groupId>org.scala-js</groupId>
 				<artifactId>scalajs-dom_${version.scalajs.library}</artifactId>
-				<version>0.9.5</version>
+				<version>0.9.6</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
@@ -456,7 +456,7 @@
 			<dependency>
 				<groupId>org.webjars.bower</groupId>
 				<artifactId>popper.js</artifactId>
-				<version>1.14.1</version>
+				<version>1.14.3</version>
 			</dependency>
 			<dependency>
 				<groupId>org.webjars.bower</groupId>
@@ -1048,7 +1048,7 @@
 			<dependency>
 				<groupId>net.sourceforge.htmlunit</groupId>
 				<artifactId>htmlunit</artifactId>
-				<version>2.30</version>
+				<version>2.31</version>
 			</dependency>
 			<!-- Note: check AWS, JGIT, Play-WS, IB -->
 			<dependency>
@@ -1384,7 +1384,7 @@
 				<plugin>
 					<groupId>com.carrotgarden.maven</groupId>
 					<artifactId>scalor-maven-plugin_2.12</artifactId>
-					<version>1.4.1.20180403213227</version>
+					<version>1.4.2.20180508161326</version>
 				</plugin>
 
 				<plugin>
@@ -1425,7 +1425,7 @@
 						<dependency>
 							<groupId>com.vladsch.flexmark</groupId>
 							<artifactId>flexmark-all</artifactId>
-							<version>0.32.22</version>
+							<version>0.32.24</version>
 						</dependency>
 					</dependencies>
 				</plugin>
@@ -1481,7 +1481,7 @@
 						<dependency>
 							<groupId>net.sf.saxon</groupId>
 							<artifactId>Saxon-HE</artifactId>
-							<version>9.8.0-11</version>
+							<version>9.8.0-12</version>
 						</dependency>
 					</dependencies>
 				</plugin>
